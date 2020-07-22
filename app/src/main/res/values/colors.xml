@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#047BD5</color>
+    <color name="colorPrimaryDark">#047BD5</color>
+    <color name="colorAccent">#3ccc5b</color>
+    <color name="nameColor">#17191f</color>
+    <color name="upperColor"></color>
+    <color name="whiteTransparentHalf">#80ffffff</color>
+    <color name="darkGrey">#DCDCDC</color>
+    <color name="startblue">#00C8FF</color>
+    <color name="endblue">#f95c49</color>
+    <color name="graylight">#AABBC0</color>
+    <color name="com_facebook_button_background_color_focused_disabled">#00C8FF</color>
+    <color name="com_facebook_likeboxcountview_border_color">#AABBC0</color>
+    <color name="com_facebook_button_background_color_disabled">#009CC7</color>
+</resources>

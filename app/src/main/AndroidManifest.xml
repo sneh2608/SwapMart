@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="snehpallav.example.memophile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lazybazaarlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lazybazaarlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="snehpallav.example.swapmart.UploadImage"
+            android:parentActivityName="snehpallav.example.swapmart.Product"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="snehpallav.example.swapmart.UserActivity"
+            android:parentActivityName="snehpallav.example.swapmart.Product"  />
+        <activity android:name="snehpallav.example.swapmart.Product"
+            android:label="@string/title_activity_product"
+            />
+        <activity android:name="snehpallav.example.swapmart.ImageShow"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="snehpallav.example.swapmart.Product"/>
+        <activity android:name="snehpallav.example.swapmart.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>
